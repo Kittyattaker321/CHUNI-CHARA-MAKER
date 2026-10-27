@@ -1,0 +1,52 @@
+WHAT IS CHUNI CHARA MAKER?
+==========================
+
+Chuni Chara Maker lets you put your own characters into CHUNITHM, using any
+picture you like. No image editors, no editing game files by hand.
+
+
+WHAT IT DOES, IN SHORT
+  1. You open a picture of your character (a PNG with a see-through background
+     works best).
+  2. You move three boxes over the picture to choose what the game shows:
+       - the big picture (shown on the result screen and when you pick a form),
+       - the select picture (shown on the character select screen),
+       - the small face icon (shown on your nameplate).
+  3. You type a name, pick a group and a version label, and click Save.
+  4. The app turns your picture into the game's own picture format and writes
+     everything the game needs into your own "option folder".
+  5. Start the game: your character is there, already unlocked.
+
+
+WHAT ELSE IT CAN DO
+  * Transformations: give a character up to 9 extra looks, each unlocked at a
+    character rank you choose.
+  * Replace: swap one of the game's characters for yours. Delete yours later and
+    the original comes back.
+  * Groups and version labels: sort your characters into your own group, with
+    your own label above it.
+  * Option folders: keep different sets of characters in different folders.
+  * Remove background: cut a plain background away from your picture.
+  * Check a folder: find and fix common mistakes in any option folder, including
+    ones you downloaded.
+
+
+IS IT SAFE FOR MY GAME?
+  The app never changes the game's own files. Everything it makes goes into your
+  own option folder inside bin\option. To undo everything, delete that folder.
+
+
+WHAT YOU NEED
+  * Windows
+  * Your own copy of the game
+  * Python 3 (free from python.org). Then double-click "Start Chuni Chara Maker.bat";
+    the first time, it installs the two small add-ons it needs by itself.
+
+
+WHERE TO LEARN MORE
+  * Guide.html   a picture guide to every button
+  * README.txt   step-by-step instructions and details
+
+
+Chuni Chara Maker is a free, unofficial fan-made tool. It is not made or supported
+by SEGA, and it contains no game files, artwork or music from the game.

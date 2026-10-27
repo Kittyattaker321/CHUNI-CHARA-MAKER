@@ -1,0 +1,45 @@
+CHUNI CHARA MAKER - CREDITS AND THIRD-PARTY SOFTWARE
+====================================================
+
+Chuni Chara Maker is free software under the GNU General Public License v3.0 or
+later (see LICENSE). Copyright (C) 2026 Chuni Chara Maker contributors.
+
+Its own code (the program, the DDS/BC3 encoder, the XML handling) was written for
+this tool with the help of AI (Claude, by Anthropic). No code from other projects is
+copied into it.
+
+It runs on, and uses, the following free software. Each project keeps its own
+license and belongs to its own authors.
+
+REQUIRED
+  Python + Tkinter        Runs the program and draws its windows.
+                          Python Software Foundation License.
+                          https://www.python.org
+  Pillow                  Opens, crops and resizes the pictures.
+                          MIT-CMU (HPND) License. By Jeffrey A. Clark and contributors.
+                          https://python-pillow.org
+  NumPy                   Image maths.
+                          BSD 3-Clause License. By the NumPy developers.
+                          https://numpy.org
+
+OPTIONAL (only if you install them yourself for the "AI cut-out" button)
+  rembg                   AI background removal. MIT License. By Daniel Gatis.
+                          https://github.com/danielgatis/rembg
+  ONNX Runtime            Runs the AI model. MIT License. By Microsoft.
+                          https://onnxruntime.ai
+  U-2-Net model           The background-removal model rembg downloads on first use.
+                          Apache License 2.0. By Xuebin Qin et al.
+                          https://github.com/xuebinqin/U-2-Net
+
+GUIDE PICTURES
+  The example character in Guide.html is Hatsune Miku, (C) Crypton Future Media, INC.
+  2007, illustration by KEI, licensed under CC BY-NC 3.0
+  (https://creativecommons.org/licenses/by-nc/3.0/, see https://piapro.net/license).
+  The pink transformation is a colour adaptation of it. These pictures are NOT covered
+  by this program's GPL license: they may only be used non-commercially, with this
+  credit. The other characters shown in the guide are made-up placeholders.
+
+GAME
+  CHUNITHM, its characters, artwork, music and file formats belong to SEGA. This
+  tool contains none of them. It is unofficial and is not made, endorsed or
+  supported by SEGA.
